@@ -17,14 +17,14 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		
 		createCodeView();
-		
+		//
 	}
 
 	private void createCodeView() {
 		LinearLayout layout = new LinearLayout(this);
 		layout.setOrientation(LinearLayout.VERTICAL);
 		TextView tv = new TextView(getApplicationContext());
-		tv.setText("This is PluginA Activity. \n 点击按钮通过Intent Action方式跳转到第二个Activity.");
+		tv.setText("This is PluginA Activity. \n 鐐瑰嚮鎸夐挳閫氳繃Intent Action鏂瑰紡璺宠浆鍒扮浜屼釜Activity.");
 		
 		LayoutParams lp = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 		layout.addView(tv, lp);
